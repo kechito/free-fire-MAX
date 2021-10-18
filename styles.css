@@ -1,0 +1,34 @@
+body{
+    background-color: #9b9b9b;
+}
+section{
+    text-align: center;
+}
+section .titulo {
+     color: rgb(196, 133, 18);
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+}
+.barra{
+    background-color: rgb(1, 10, 1);
+    border-color: rgb(255, 187, 0);
+    border-width: 2px;
+    border-style: double;
+    
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: rgb(20, 16, 7);
+    list-style: none;
+    font-family: 'Bangers', cursive;
+    padding: 3px 14px 4px 14px;
+    background-color: #ec8a09;
+    margin-right: 5px;
+}
+.barra ul li a:hover{
+    background-color: rgb(190, 119, 11);
+}
